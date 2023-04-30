@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+
+<!--    <p><a href="/q&a2">Next question</a></p>-->
+
+    <p>Your answer is <%= flag ? 'correct' : 'incorrect' %></p>
+    <p><a href="<%= linkURL %>"><%= linkText %></a></p>
+</body>
+</html>
